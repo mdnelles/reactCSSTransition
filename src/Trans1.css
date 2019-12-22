@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .container {
+    position: relative;
+  }
+  
+  .display {
+    position: relative;
+    z-index: 1;
+    width: 120px;
+    height: 40px;
+    background-color: #5a564c;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 350ms;
+  }
+  
+  .display:active {
+    background-color: #000000;
+  }
+  
+  .menu {
+    position: absolute;
+    top: 45px;
+    z-index: 1;
+    box-sizing: border-box;
+    width: 200px;
+    padding: 0 20px;
+    overflow: hidden;
+    background-color: #9e8949;
+    border-radius: 5px;
+  }
+  
+  .list {
+    padding: 0;
+    list-style-type: star;
+  }
+  
+  .list-item {
+    padding: 5px 0;
+  }
+  
